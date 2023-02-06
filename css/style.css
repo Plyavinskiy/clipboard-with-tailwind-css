@@ -529,20 +529,12 @@ h3 {
   --tw-backdrop-sepia:  ;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .relative {
   position: relative;
 }
 
 .top-0 {
   top: 0px;
-}
-
-.right-1\/2 {
-  right: 50%;
 }
 
 .right-\[50\%\] {
@@ -618,22 +610,16 @@ h3 {
   margin-bottom: calc(3rem * var(--tw-space-y-reverse));
 }
 
-.space-y-60 > :not([hidden]) ~ :not([hidden]) {
+.space-y-16 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
-  margin-top: calc(15rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(15rem * var(--tw-space-y-reverse));
+  margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(4rem * var(--tw-space-y-reverse));
 }
 
 .space-y-5 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
-}
-
-.space-y-16 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(4rem * var(--tw-space-y-reverse));
 }
 
 .rounded-full {
@@ -661,10 +647,6 @@ h3 {
 
 .pt-16 {
   padding-top: 4rem;
-}
-
-.pl-16 {
-  padding-left: 4rem;
 }
 
 .text-center {
@@ -716,6 +698,18 @@ h3 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
   text-align: center;
+}
+
+.section-content {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4rem;
+  max-width: 48rem;
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 2.25rem;
+  --tw-text-opacity: 1;
+  color: hsl(201 11% 66% / var(--tw-text-opacity));
 }
 
 .button-container {
@@ -780,10 +774,6 @@ body {
 
   .md\:w-1\/2 {
     width: 50%;
-  }
-
-  .md\:w-1 {
-    width: 0.25rem;
   }
 
   .md\:flex-row {
